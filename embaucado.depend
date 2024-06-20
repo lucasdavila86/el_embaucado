@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1718916519 source:c:\users\ldv86\documents\clases\ezequiel_lerose\embaucado\embaucado\main.cpp
+	<iostream>
+	"cartas.h"
+
+1718916535 source:c:\users\ldv86\documents\clases\ezequiel_lerose\embaucado\embaucado\cartas.cpp
+	<iostream>
+	"cartas.h"
+
+1718916503 c:\users\ldv86\documents\clases\ezequiel_lerose\embaucado\embaucado\cartas.h
+
