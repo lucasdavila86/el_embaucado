@@ -9,9 +9,12 @@ int embaucado_baraja[TAM_BARAJA] = {10, 11, 12, 13, 14, // 10♥, J♥, Q♥, K�
                                     30, 31, 32, 33, 34, // 10♠, J♠, Q♠, K♠, A♠
                                     40, 41, 42, 43, 44};// 10♣, J♣, Q♣, K♣, A♣
 
+extern int embaucado_valores_carta[5] = {10, 11, 12, 15, 20};
+
 int embaucado_figuras[TAM_FIGURAS] = {10, 20, 30, 40}; // ♥, ◆, ♠, ♣
 
 void mezclar_baraja (int mazo[], int mezclado[], int tam);
 void print_mazo(int mazo[], int tam);
+int valor_carta(int carta_baraja);
 
 #endif // CARTAS_H_INCLUDED

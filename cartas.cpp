@@ -4,6 +4,8 @@
 #include <iostream>
 #include "cartas.h"
 
+extern int embaucado_valores_carta[];
+
 void print_mazo(int mazo[], int tam){
     for(int i=0; i<tam; i++){
         std::cout << mazo[i] << " ";
@@ -17,5 +19,8 @@ void mezclar_baraja (int mazo[], int mezclado[], int tam) {
     }
     //return 0;
 }
-
+int valor_carta(int carta_baraja){
+    int index = carta_baraja % 10;
+    return embaucado_valores_carta[index];
+}
 #endif // CARTAS_H_INCLUDED

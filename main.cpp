@@ -12,6 +12,11 @@ int main()
     print_mazo(embaucado_baraja, TAM_BARAJA);
     mezclar_baraja(embaucado_baraja, baraja_mezclada, TAM_BARAJA);
     print_mazo(baraja_mezclada, TAM_BARAJA);
+
+    for(int i=0; i<TAM_BARAJA; i++){
+        cout << "Carta: " << embaucado_baraja[i] << " Valor: " << valor_carta(embaucado_baraja[i]) << endl;
+    }
+
     return 0;
 }
 
